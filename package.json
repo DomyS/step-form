@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://domys.github.io/step-form",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "material-ui": "^0.20.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
